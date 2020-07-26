@@ -5,6 +5,7 @@ This repository contains a jupyter notebook in which a task of finding visually 
 Framework used: Pytorch
 
 # Steps:
+
 1: I've used resnet50 architecture to extract features from the images database. I've removed the last avgpool and fully connected layer to extract a feature vector of size (2048,7,7).
 
 2: For passing the images in resnet50 model, first we need to perform some preprocessing. 
