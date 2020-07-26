@@ -14,6 +14,6 @@ Framework used: Pytorch
   
 3: Saving the feature vectors of all images to a dictionary with the image name as keys and it's feature vector as values.
 
-4. Now for finding 10 visually similar garments, I used 'Cosine Similarity' and comapring the input feature vector to all the image's features.
+4. Now for finding 10 visually similar garments, I used 'Cosine Similarity' and comparing the input feature vector to all the image's features.
 
 5. An output is received with all the similarity values with the input image and taking the top 10 similarities and plotting those results and saving them too in the Suggestions folder.
